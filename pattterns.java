@@ -11,7 +11,14 @@ public class pattterns {
             System.out.println();
         }
     }
-    
+    public static void inv_rot_halfPyramid(int row,int col){
+        for(int i=1;i<=row;i++){
+            for(int j=1;j<=col;j++){
+                   
+            }
+        }
+    }
+
     public static void main(String[] args) {
         hollowRectangle(4,5);
     }
