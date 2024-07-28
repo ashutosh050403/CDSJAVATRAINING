@@ -1,5 +1,4 @@
 import javax.swing.*;
-import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -48,8 +47,8 @@ public class Calculator {
         addition.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                float number1= Float.parseFloat(num11.getText().toString());
-                float number2= Float.parseFloat(num22.getText().toString());
+                float number1= Float.parseFloat(num11.getText());
+                float number2= Float.parseFloat(num22.getText());
                 float answer=number1+number2;
                 result.setText(String.valueOf(answer));
             }
@@ -57,8 +56,8 @@ public class Calculator {
         subtraction.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                float number1= Float.parseFloat(num11.getText().toString());
-                float number2= Float.parseFloat(num22.getText().toString());
+                float number1= Float.parseFloat(num11.getText());
+                float number2= Float.parseFloat(num22.getText());
                 float answer=number1-number2;
                 result.setText(String.valueOf(answer));
             }
@@ -66,8 +65,8 @@ public class Calculator {
         division.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                float number1= Float.parseFloat(num11.getText().toString());
-                float number2= Float.parseFloat(num22.getText().toString());
+                float number1= Float.parseFloat(num11.getText());
+                float number2= Float.parseFloat(num22.getText());
                 float answer=number1/number2;
                 result.setText(String.valueOf(answer));
             }
@@ -75,8 +74,8 @@ public class Calculator {
         multiplication.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                float number1= Float.parseFloat(num11.getText().toString());
-                float number2= Float.parseFloat(num22.getText().toString());
+                float number1= Float.parseFloat(num11.getText());
+                float number2= Float.parseFloat(num22.getText());
                 float answer=number1*number2;
                 result.setText(String.valueOf(answer));
             }
